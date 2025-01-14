@@ -1,0 +1,6 @@
+﻿  rightcheck.cpp
+c:\users\choosm\desktop\tetress\더블버퍼\rightcheck.cpp(35): warning C4065: switch문에 'default'가 있으나 'case' 레이블이 없습니다.
+  GameScene.cpp
+  코드를 생성하고 있습니다...
+  더블버퍼.vcxproj -> C:\Users\choosm\Desktop\tetress\x64\Debug\더블버퍼.exe
+  더블버퍼.vcxproj -> C:\Users\choosm\Desktop\tetress\x64\Debug\더블버퍼.pdb (Partial PDB)

@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\DoubleBuffer">
+      <UniqueIdentifier>{ab2ad95e-c572-4f53-9c97-2b43a8373806}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\SceneManager">
+      <UniqueIdentifier>{0347e051-9638-49f5-a641-607102620247}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Framework">
+      <UniqueIdentifier>{9b227b5f-dac5-41d8-a5e2-527a77bb84a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Scene">
+      <UniqueIdentifier>{8f2ceeec-2873-47af-b1d9-75bd4818d247}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Scene\GameScene">
+      <UniqueIdentifier>{1aa3fd87-2cc3-49bf-b82f-e6e4ee90ec88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\block">
+      <UniqueIdentifier>{060b4a6f-6cb2-4f6f-8cb9-28bdf8a57e4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\check">
+      <UniqueIdentifier>{486e4e6a-f694-4282-a3e0-65bf5b2a5fd4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\check\downcheck">
+      <UniqueIdentifier>{f1cd3b56-f91f-48eb-b564-fcb5ee022fe0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\check\leftcheck">
+      <UniqueIdentifier>{6118b54a-fc39-451a-abfe-2718dd8de8b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\check\rightcheck">
+      <UniqueIdentifier>{70ba1802-1257-40ca-9448-64d3e54d472a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\check\turncheck">
+      <UniqueIdentifier>{97dc0d74-7448-420c-b5a6-f9ce424fbfbd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Scene\MainScene">
+      <UniqueIdentifier>{c06d887e-12b2-41db-8000-e67fd97fe0b5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DoubleBuffer.cpp">
+      <Filter>소스 파일\DoubleBuffer</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>소스 파일\SceneManager</Filter>
+    </ClCompile>
+    <ClCompile Include="GameScene.cpp">
+      <Filter>소스 파일\Scene\GameScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Block.cpp">
+      <Filter>소스 파일\block</Filter>
+    </ClCompile>
+    <ClCompile Include="downcheck.cpp">
+      <Filter>소스 파일\check\downcheck</Filter>
+    </ClCompile>
+    <ClCompile Include="leftcheck.cpp">
+      <Filter>소스 파일\check\leftcheck</Filter>
+    </ClCompile>
+    <ClCompile Include="rightcheck.cpp">
+      <Filter>소스 파일\check\rightcheck</Filter>
+    </ClCompile>
+    <ClCompile Include="turncheck.cpp">
+      <Filter>소스 파일\check\turncheck</Filter>
+    </ClCompile>
+    <ClCompile Include="MainScene.cpp">
+      <Filter>소스 파일\Scene\MainScene</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DoubleBuffer.h">
+      <Filter>소스 파일\DoubleBuffer</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>소스 파일\SceneManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>소스 파일\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="GameDefine.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="GameScene.h">
+      <Filter>소스 파일\Scene\GameScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Block.h">
+      <Filter>소스 파일\block</Filter>
+    </ClInclude>
+    <ClInclude Include="downcheck.h">
+      <Filter>소스 파일\check\downcheck</Filter>
+    </ClInclude>
+    <ClInclude Include="leftcheck.h">
+      <Filter>소스 파일\check\leftcheck</Filter>
+    </ClInclude>
+    <ClInclude Include="rightcheck.h">
+      <Filter>소스 파일\check\rightcheck</Filter>
+    </ClInclude>
+    <ClInclude Include="turncheck.h">
+      <Filter>소스 파일\check\turncheck</Filter>
+    </ClInclude>
+    <ClInclude Include="MainScene.h">
+      <Filter>소스 파일\Scene\MainScene</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
